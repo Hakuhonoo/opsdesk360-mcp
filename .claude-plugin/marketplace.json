@@ -1,0 +1,12 @@
+{
+  "name": "opsdesk360-mcp",
+  "description": "The OpsDesk 360 plugin for Claude Code.",
+  "owner": { "name": "Hakuhonoo", "url": "https://github.com/Hakuhonoo" },
+  "plugins": [
+    {
+      "name": "opsdesk360",
+      "source": "./",
+      "description": "MCP connector for OpsDesk 360 workspaces, the gateway and ops consoles, with a skill that keeps every action on the right target."
+    }
+  ]
+}
