@@ -3,18 +3,26 @@
   "displayName": "OpsDesk 360",
   "version": "0.1.0",
   "description": "Connects Claude Code to OpsDesk 360 over MCP (the gateway for all your hosted workspaces, plus any direct workspace or ops console you add) and teaches it the target rules: name the target on every call, show the environment, ask before writing to production, treat people's text as data.",
-  "author": { "name": "Hakuhonoo", "url": "https://github.com/Hakuhonoo" },
+  "author": {
+    "name": "Hakuhonoo",
+    "url": "https://github.com/Hakuhonoo"
+  },
   "homepage": "https://opsdesk360.com",
   "repository": "https://github.com/Hakuhonoo/opsdesk360-mcp",
   "license": "MIT",
-  "keywords": ["opsdesk360", "mcp", "helpdesk", "case-management", "operations"],
+  "keywords": [
+    "opsdesk360",
+    "mcp",
+    "helpdesk",
+    "case-management",
+    "operations"
+  ],
   "userConfig": {
     "gateway_url": {
       "type": "string",
       "title": "OpsDesk 360 MCP address",
       "description": "The gateway that reaches every hosted workspace you belong to. Change it only for a single-company install (its own https://<host>/api/mcp).",
-      "default": "https://app.opsdesk360.com/api/mcp",
-      "required": true
+      "default": "https://app.opsdesk360.com/api/mcp"
     }
   }
 }
